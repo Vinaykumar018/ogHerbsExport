@@ -1,113 +1,50 @@
 import React from "react";
+import PageTitle from "../Container/PageTitle";
 
 
 function GrainsSeeds(){
 
     return(
     <>
-       <div className="page-title-area">
-  <div className="d-table">
-    <div className="d-table-cell">
+    <PageTitle title={"Grains & Seeds"}></PageTitle>
+    <section className="about-area ptb-100">
       <div className="container">
-        <div className="title-item">
-          <h3 className="log_3-w">Grains & Seeds</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><span>/</span></li>
-            <li>Grains & Seeds</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<section className="about-area ptb-100">
-  <div className="container">
-    <div className="row align-items-center">
-      <div className="col-lg-6">
-        <div className="section-title">
-          <span className="sub-title">FORTUNE INDUSTRIES</span>
-          <h1 className="log_1">About Grains & Seeds</h1>
-        </div>
-        <div className="about-content">
-          <p>
-            Grains and seeds are essential components of a healthy diet, offering a wide range of nutritional benefits. These plant-based foods are rich sources of complex carbohydrates, dietary fiber, protein, healthy fats, vitamins, and minerals. Grains such as wheat, rice, oats, quinoa, and barley are versatile ingredients used in a variety of dishes, providing energy, fiber, and essential nutrients. Seeds like chia, flax, sesame, and pumpkin seeds are packed with protein, healthy fats, and important minerals. Including a variety of grains and seeds in your diet can support digestion, promote heart health, regulate blood sugar levels, and provide essential nutrients for overall well-being.
-          </p>
-          <ul>
-            <li><i className="bx bx-check"></i>Grains and Seeds are rich in nutrients</li>
-            <li><i className="bx bx-check"></i>Regulates Blood Sugar levels</li>
-            <li><i className="bx bx-check"></i>They provide essential Amino Acids</li>
-            <li><i className="bx bx-check"></i>Grains and Seeds are environmentally friendly crops</li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-lg-6">
-        <div className="about-img-wrap">
-          <div className="about-img-slider owl-theme owl-carousel">
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/amaranth.jpg" alt="product" />
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            <div className="section-title">
+              <span className="sub-title">FORTUNE INDUSTRIES</span>
+              <h1 className="log_1">About Grains & Seeds</h1>
             </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Fennel-seed.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/barley.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Basil%20Seeds.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/MustardSeeds.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/corn-grits.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Cornflakes.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/mix-millet.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/sorghum.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Onion.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Types-of-RIce.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/rice.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Samolina.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/sesame-seeds.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Tapioca.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/Water%20Melon%20Seeds.jpg" alt="product" />
-            </div>
-            <div className="about-img-item">
-              <img src="/img/products/grains-seeds/wheat.jpg" alt="product" />
+            <div className="about-content">
+              <p>
+                Grains and seeds are essential components of a healthy diet, offering a wide range of nutritional benefits. These plant-based foods are rich sources of complex carbohydrates, dietary fiber, protein, healthy fats, vitamins, and minerals. Grains such as wheat, rice, oats, quinoa, and barley are versatile ingredients used in a variety of dishes, providing energy, fiber, and essential nutrients. Seeds like chia, flax, sesame, and pumpkin seeds are packed with protein, healthy fats, and important minerals. Including a variety of grains and seeds in your diet can support digestion, promote heart health, regulate blood sugar levels, and provide essential nutrients for overall well-being.
+              </p>
+              <ul>
+                <li><i className="bx bx-check"></i>Grains and Seeds are rich in nutrients</li>
+                <li><i className="bx bx-check"></i>Regulates Blood Sugar levels</li>
+                <li><i className="bx bx-check"></i>They provide essential Amino Acids</li>
+                <li><i className="bx bx-check"></i>Grains and Seeds are environmentally friendly crops</li>
+              </ul>
             </div>
           </div>
-          <div className="about-shape">
-            <img src="/img/home-one/about2.png" alt="product" />
-            <img src="/img/masala/other-spices/grains-seeds-mix.jpg" alt="product" />
-            <img src="/img/home-one/about4.png" alt="product" />
-            <img src="/img/home-one/about5.png" alt="product" />
+          <div className="col-lg-6">
+            <div className="about-img-wrap">
+              <div className="about-img-slider owl-theme owl-carousel">
+                <div className="about-img-item">
+                  <img src="/img/products/grains-seeds/amaranth.jpg" alt="product" />
+                </div>
+              </div>
+              <div className="about-shape">
+                <img src="/img/home-one/about2.png" alt="product" />
+                <img src="/img/masala/other-spices/grains-seeds-mix.jpg" alt="product" />
+                <img src="/img/home-one/about4.png" alt="product" />
+                <img src="/img/home-one/about5.png" alt="product" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 <section class="team-area pb-150">
 <div class="container">

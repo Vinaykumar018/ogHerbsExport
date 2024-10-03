@@ -20,6 +20,7 @@ import Footer from './Component/Footer/Footer';
 import Quality from './Component/Quality/Quality';
 import GrainsSeeds from './Component/GrainSeeds/GrainsSeeds';
 import DryFruit from './Component/DryFruits/DryFruit';
+import Rice from './Component/GrainSeeds/Rice'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,6 +37,7 @@ function App() {
           <Route path="/quality" element={<Quality />}/>
           <Route path="/grains-seeds" element={<GrainsSeeds/>}/>
           <Route path="/dry-fruits" element={<DryFruit/>}/>
+          <Route path="/grains-seeds/rice" element={<Rice/>}/>
         </Routes>
       <Footer/>        
       </>
