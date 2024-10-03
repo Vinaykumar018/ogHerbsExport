@@ -1,5 +1,7 @@
 import React from 'react' 
-function AboutMessage(){
+function AboutMessage({prop}){
+    // console.log(prop);
+    const main_heading=prop
     return(
         <>
         <section class="about-area ptb-100">
@@ -8,7 +10,7 @@ function AboutMessage(){
                     <div class="col-lg-6">
                         <div class="section-title">
                             <span class="sub-title">OG Herbs</span>
-                            <h1 class="log_1">Welcome To OG Herbs</h1>
+                            <h1 class="log_1">{main_heading}</h1>
                         </div>
                         <div class="about-content">
                             <p>Spices by <strong>OG Herbs</strong>, the best Indian spices supplier, has been an integral part of Indian food for a long time, and today, even become more relevant for us. Spices offered by the top name among the <strong>spices exporter in India</strong>, OG Herbs, not only just enthuse your taste buds but are composed of an impressive list of phytonutrients, essential oils, antioxidants, minerals and vitamins that are indispensable for complete wellness. Spices by OG Herbs contain an imposing list of plant-derived chemical compounds that are known to have disease averting and health endorsing properties. Since times immemorial, they have been in use for their anti-inflammatory, carminative, anti-flatulent properties.</p>

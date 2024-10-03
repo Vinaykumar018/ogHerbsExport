@@ -1,29 +1,9 @@
 import React from "react";
+import PageTitle from "../Container/PageTitle";
 function Contact(){
     return(
         <>
-            <div class="page-title-area">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="title-item">
-                                <h3 class="log_3-w">Contact</h3>
-                                <ul>
-                                    <li>
-                                        <a href="/">Home</a>
-                                    </li>
-                                    <li>
-                                    <span>/</span>
-                                    </li>
-                                    <li>
-                                    Contact
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <PageTitle  title={"Contact"}/>
             <section class="contact-area pt-100 pb-70">
                 <div class="container">
                     <div class="row">

@@ -19,6 +19,7 @@ import Contact from './Component/Contact/Contact'; // Import your Contact compon
 import Footer from './Component/Footer/Footer';
 import Quality from './Component/Quality/Quality';
 import GrainsSeeds from './Component/GrainSeeds/GrainsSeeds';
+import DryFruit from './Component/DryFruits/DryFruit';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,6 +35,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/quality" element={<Quality />}/>
           <Route path="/grains-seeds" element={<GrainsSeeds/>}/>
+          <Route path="/dry-fruits" element={<DryFruit/>}/>
         </Routes>
       <Footer/>        
       </>

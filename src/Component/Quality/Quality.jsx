@@ -40,7 +40,6 @@ function Quality(){
                 </div>
             </div>
         </section>
-      
     </>
     )}
 export default Quality;

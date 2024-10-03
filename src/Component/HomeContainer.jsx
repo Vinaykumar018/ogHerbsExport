@@ -14,14 +14,13 @@ import prooduct_img_third from '../assets/img/products/grains-seeds/spices-masal
 import prooduct_img_fourth from '../assets/img/products/grains-seeds/dry-fruites.jpg';
 import prooduct_img_fifth from '../assets/img/products/grains-seeds/flour.jpg';
 import prooduct_img_sixth from '../assets/img/products/grains-seeds/animal-feed.jpg';
-import mission from '../assets/img/home-one/service-shape.png'
-import mission_two from '../assets/img/home-one/service-shape2.png'
-import benefit from '../assets/img/home-one/benefit-shape.png';
 import warehouse from '../assets/img/home-one/warehouse.jpg';
 import plant from '../assets/img/home-one/plant.jpg';
 import lab_01 from '../assets/img/home-one/lab_01.png';
 import loading from '../assets/img/home-one/loading.jpg';
 import AboutMessage from './Container/AboutMessage';
+import MissionVission from './Container/MissionVission';
+import BestExporter from './Container/BestExporte';
 
 
 const HomeContainer = () => {
@@ -98,76 +97,9 @@ const HomeContainer = () => {
             </div>
         </div>
     </section>
-    <section class="service-area pt-100 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-6">
-                        <div class="service-item udpate-service">
-                            <img src={mission} alt="Service"/>
-                            <img src={mission_two} alt="Service"/>
-                            <i class="fa fa-cogs" aria-hidden="true"></i>
-                            <h3>Our Mission</h3>
-                            <p>OG Herbs is one of India's most popular spices exporters because it provides the most affordable, cost-effective range of spices right at the consumers' doorstep. We aim to be the most ground-breaking, dependable, premium Indian brand of spices that stands for transporting, distributing the regional taste diversity of India in all its genuineness, freshness to all the users.</p>
-                        </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="service-item udpate-service">
-                        <img src={mission} alt="Service"/>
-                        <img src={mission_two} alt="Service"/>
-                        <i class="fa fa-lightbulb" aria-hidden="true"></i>
-                        <h3>Our Vision</h3>
-                        <p>We will ensure that OG Herbs is manufactured, packaged and delivered to consumers' doorstep while preserving the highest order of quality and hygiene. We shall endeavour to provide nutritionally sound products and unveil complete and precise nutritional information on our packaging. We commit to constantly working towards analysing and eradicating instances of adulteration.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <AboutMessage/>
-    <section class="benefit-area mt-0">
-        <div class="container">
-            <div class="benefit-content">
-                <div class="section-title">
-                    <span class="sub-title">OG Herbs</span>
-                    <h2>Why OG Herbs is the best Spice Exporter in India</h2>
-                </div>
-                <p>A delicious food is something that makes you eat more and makes everyone ask the question: what are the ingredients of this jaw-droppingly relishing food? And the answer is the only one OG Herbs! Indian Spices are sought after all across the world for their high quality and taste. OG Herbs is among the world’s largest Indian spice exporters, providing Indian households requiring a large variety of flavours and spices to enhance the flavours of their dishes.<br/></p>
-                <p>Benefits of buying spices from a reliable Indian Spice Suppliers like <strong>OG Herbs</strong> :</p>
-                <div class="row">
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="benefit-inner">
-                            <i class="flaticon-darts"></i>
-                            <h4>High quality and Best in taste</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="benefit-inner">
-                            <i class="flaticon-customer"></i>
-                            <h4>Superior in Color and Taste</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="benefit-inner">
-                            <i class="flaticon-security-purposes"></i>
-                            <h4>Aromatic fragrances and Affordable prices</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="benefit-inner">
-                            <i class="flaticon-artificial-intelligence"></i>
-                            <h4>Trusted and Certified</h4>
-                        </div>
-                    </div>
-                </div>
-                <a class="cmn-btn" href="about.html">
-                    Know Details
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                </a>
-                <div class="benefit-shape">
-                    <img src={benefit} alt="Benefit"/>
-                </div>
-            </div>
-        </div>
-    </section>
+    <MissionVission/>
+    <AboutMessage  prop={'Welcome To OG Herbs'}/>
+    <BestExporter/>
     <div class="logo-area c_pt-200">
 
 

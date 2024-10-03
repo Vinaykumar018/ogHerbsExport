@@ -1,27 +1,12 @@
 import React from "react";
 import AboutSlider from "./AboutSlider";
 import AboutMessage from "../Container/AboutMessage";
-
+import PageTitle from "../Container/PageTitle";
 function About(){
     return(
         <>
-            <div class="page-title-area">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="title-item">
-                                <h3 class="log_3-w">About</h3>
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><span>/</span></li>
-                                    <li>About</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <AboutMessage/>
+            <PageTitle title={"About Us"}/>
+            <AboutMessage prop={'About Us'}/>
 <div class="job-area job-area-two job-area-three about-job">
     <div class="container-fluid">
         <div class="row m-0">
