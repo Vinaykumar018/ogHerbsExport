@@ -35,7 +35,7 @@ function App() {
           <Route path="/quality" element={<Quality />}/>
           <Route path="/grains-seeds" element={<GrainsSeeds/>}/>
         </Routes>
-        
+      <Footer/>        
       </>
     </Router>
   );
