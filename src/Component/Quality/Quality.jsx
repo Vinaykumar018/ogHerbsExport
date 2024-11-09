@@ -1,25 +1,16 @@
 import React from "react";
 
+import { useSelector, useDispatch } from "react-redux";
+import { selectTitle } from "../../Model/Reducer/TitleReducer"
+
+import QualityTopHeader from "./QualityTopHeader";
 
 function Quality(){
+    const Quality = useSelector((state) => selectTitle(state, "quality"));
+    
     return(
     <>
-        <div class="page-title-area">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="title-item">
-                            <h3 class="log_3-w">Quality</h3>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><span>/</span></li>
-                                <li>Quality</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+         <QualityTopHeader></QualityTopHeader>
         <section class="privacy-area pt-100">
             <div class="container">
                 <div class="privacy-item">

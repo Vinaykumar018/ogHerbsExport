@@ -1,12 +1,15 @@
 import React from "react";
-import PageTitle from "../Container/PageTitle";
+import { useSelector, useDispatch } from "react-redux";
+import { selectTitle } from "../../Model/Reducer/TitleReducer"
+
+import GrainSeedsTopHeader from "./GrainSeedsTopHeader";
 
 
 function GrainsSeeds(){
-
+  const Title = useSelector((state) => selectTitle(state, "seeds"));
     return(
     <>
-    <PageTitle title={"Grains & Seeds"}></PageTitle>
+    <GrainSeedsTopHeader></GrainSeedsTopHeader>
     <section className="about-area ptb-100">
       <div className="container">
         <div className="row align-items-center">

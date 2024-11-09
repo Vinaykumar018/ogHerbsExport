@@ -27,8 +27,8 @@ function Navmenu(){
                                     <Link to="grains-seeds" className="nav-link dropdown-toggle " id="ver_c_worf">Grains & Seeds <i className="fa fa-chevron-down" aria-hidden="true"></i></Link>
                                     <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                            <Link to="grains-seeds/rice" className="nav-link">Rice <i className="fa fa-chevron-down float-end" aria-hidden="true"></i></Link>
-                                            <ul className="dropdown-menu">
+                                            <Link to="grains-seeds/rice" className="nav-link">Rice <i className=" float-end" aria-hidden="true"></i></Link>
+                                            {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
                                             <Link to="grains-seeds/sella-basmati-rice" className="nav-link">Sella Basmati Rice</Link>
                                             </li>
@@ -50,11 +50,11 @@ function Navmenu(){
                                             <li className="nav-item">
                                             <Link to="grains-seeds/ponni-rice" className="nav-link">Ponni Rice </Link>
                                             </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="nav-item">
-                                            <Link to="grains-seeds/wheat" className="nav-link ">Wheat <i className="fa fa-chevron-down float-end" aria-hidden="true"></i></Link>
-                                            <ul className="dropdown-menu">
+                                            <Link to="grains-seeds/wheat" className="nav-link ">Wheat <i className="fa  float-end" aria-hidden="true"></i></Link>
+                                            {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
                                             <Link to="grains-seeds/lokwan-wheat" className="nav-link ">Lokwan Wheat </Link>
                                             </li>
@@ -73,14 +73,14 @@ function Navmenu(){
                                             <li className="nav-item">
                                             <Link to="grains-seeds/sihore-wheat" className="nav-link ">Sihore Wheat </Link>
                                             </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="nav-item">
                                         <Link to="grains-seeds/maize-corn" className="nav-link ">Maize/Corn</Link>
                                         </li>
                                         <li className="nav-item">
-                                        <Link to="grains-seeds/barley" className="nav-link ">Barley <i className="fa fa-chevron-down float-end" aria-hidden="true"></i></Link>
-                                            <ul className="dropdown-menu">
+                                        <Link to="grains-seeds/barley" className="nav-link ">Barley <i className="fa  float-end" aria-hidden="true"></i></Link>
+                                            {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
                                             <Link to="grains-seeds/pearl-barley" className="nav-link">Pearl Barley</Link>
                                             </li>
@@ -93,7 +93,7 @@ function Navmenu(){
                                             <li className="nav-item">
                                             <Link to="grains-seeds/hulless-barley" className="nav-link">Hulless Barley</Link>
                                             </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                     </ul>
                                 </li>                              
@@ -112,9 +112,10 @@ function Navmenu(){
                                 <li className="nav-item">
                                 <Link to="pulses/green-gram" className="nav-link">Green Gram</Link>
                                 </li>
-                                <li className="nav-item">
+                              <li className="nav-item">
                                 <Link to="pulses/bengal-gram" className="nav-link">Bengal Gram</Link>
                                 </li>
+                                  {/* 
                                 <li className="nav-item">
                                 <Link to="pulses/pigeon-peas" className="nav-link">Pigeon Peas</Link>
                                 </li>
@@ -156,22 +157,22 @@ function Navmenu(){
                                 </li>
                                 <li className="nav-item">
                                 <Link to="pulses/kidney-beans" className="nav-link">Red Kidney Beans</Link>
-                                </li>
+                                </li> */}
                                 </ul>
                                 </li>                                                             
                                 <li className="nav-item">
                                 <Link to="dry-fruits" className="nav-link dropdown-toggle " id="ver_c_worf">Dry Fruits & Nuts <i className="fa fa-chevron-down" aria-hidden="true"></i></Link>
                                 <ul className="dropdown-menu">
                                 <li className="nav-item">
-                                <Link to="dry-fruits/peanuts" className="nav-link ">Peanuts <i className="fa fa-chevron-down float-end" aria-hidden="true"></i></Link>
-                                <ul className="dropdown-menu">
+                                <Link to="dry-fruits/peanuts" className="nav-link ">Peanuts <i className="fa float-end" aria-hidden="true"></i></Link>
+                                {/* <ul className="dropdown-menu">
                                 <li className="nav-item">
                                 <Link to="dry-fruits/peanuts" className="nav-link">Peanuts 1</Link>
                                 </li>
                                 <li className="nav-item">
                                 <Link to="dry-fruits/peanuts" className="nav-link">Peanuts 2</Link>
                                 </li>
-                                </ul>
+                                </ul> */}
                                 </li>
                                 <li className="nav-item">
                                 <Link to="dry-fruits/almonds" className="nav-link">Almonds</Link>
@@ -182,7 +183,7 @@ function Navmenu(){
                                 <li className="nav-item">
                                 <Link to="dry-fruits/dates" className="nav-link">Dates</Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                 <Link to="dry-fruits/dried-dates" className="nav-link">Dried Dates</Link>
                                 </li>
                                 <li className="nav-item">
@@ -199,7 +200,7 @@ function Navmenu(){
                                 </li>
                                 <li className="nav-item">
                                 <Link to="dry-fruits/walnut" className="nav-link">Walnut</Link>
-                                </li>
+                                </li> */}
                                 </ul>
                                 </li>                                
                                 <li className="nav-item">

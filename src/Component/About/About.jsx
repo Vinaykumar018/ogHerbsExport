@@ -1,12 +1,16 @@
 import React from "react";
 import AboutSlider from "./AboutSlider";
 import AboutMessage from "../Container/AboutMessage";
-import PageTitle from "../Container/PageTitle";
+import { useSelector, useDispatch } from "react-redux";
+import { selectTitle } from "../../Model/Reducer/TitleReducer"
+
+import AboutTopHeader from "./AboutTopHeader";
 function About(){
+    const About = useSelector((state) => selectTitle(state, "about"));
     return(
         <>
-            <PageTitle title={"About Us"}/>
-            <AboutMessage prop={'About Us'}/>
+        <AboutTopHeader></AboutTopHeader>
+            
 <div class="job-area job-area-two job-area-three about-job">
     <div class="container-fluid">
         <div class="row m-0">
